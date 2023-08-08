@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <title>Creative_Cover | login</title>
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/login.css">
+    <style>
+        .errors {
+            display: none;
+        }
+
+        .errors.show {
+            display: block;
+        }
+    </style>
+    <script src="./js/login.js" defer></script>
+    <!-- Start of txt.me widget code -->
+    <script src="https://v2.txt.me/livechat/js/wrapper/87db479b4c1b43b59900b48ea21ef846" async></script>
+    <noscript><a href="https://txt.me/reviews/87db479b4c1b43b59900b48ea21ef846" rel="nofollow">Rate our customer
+            support</a>, powered by <a href="https://txt.me" rel="noopener nofollow"
+            target="_blank">txt.me</a></noscript>
+    <!-- End of txt.me widget code -->
+</head>
+
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logo.png"></div>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="blog.html">BLOGS</a></li>
+
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+        <div class="rightnav">
+            <!-- <input type="text" name="serach" id="search">
+            <button class="btn btn-sm">Serach</button> -->
+        </div>
+    </nav>
+
+    <form name="submit-login" id="form" method="POST">
+        <div class="container">
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <div class="errors">
+                <h3 class="error-title">Error</h3>
+                <ul class="errors-list">
+                </ul>
+            </div>
+            <label for="username"><b class="form-label">Name</b></label>
+            <input type="text" placeholder="Your Name" name="Name" id="yourname" required>
+
+            <label for="email"><b class="form-label">Email</b class="form-label"></label>
+            <input type="text" placeholder="Enter Email" name="Email" id="email" required>
+
+            <label for="number"><b>Your Contact</b class="form-label"></label>
+            <input type="text" placeholder="Enter Phone Number" name="Phonenumber" id="number" required>
+
+            <label for="psw"><b class="form-label">Password</b></label>
+            <input type="password" placeholder="Enter Password" name="Password" id="psw" required>
+
+            <label for="psw-repeat"><b class="form-label">Confirm Password</b></label>
+            <input type="text" placeholder="Repeat Password" name="cpassword" id="cpsw" required>
+            <hr>
+
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container signin">
+            <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+    </form>
+
+    <!-- <link type="text/javascript" src="js/login.js"> -->
+
+
+    <footer style="background-color: #1b0a0a;
+   padding: 1% 8%;
+   color: white;
+   position:fixed;
+   font-size: large;
+   display: flex;
+   width: 100%;
+   margin-bottom: 0;
+   margin-top: 19vh;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;">
+        <div>© 2023, Stationery Shed</div>
+        <div>Wanna talk to Creative Cover? Or be a part of it? You can contact any of our members personally or 📧 us
+            at <strong>Creativecover@gmail.com</strong> !</div>
+        <div>🤖Chatbot:Coming Soon!!</div>
+    </footer>
+</body>
+
+</html>
